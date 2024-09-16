@@ -1,0 +1,39 @@
+.suggestions-list {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.suggestions-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.suggestions-list ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.suggestions-list ul li img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.suggestions-list ul li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions-list ul li h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.suggestions-list ul li p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #777;
+}

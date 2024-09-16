@@ -1,0 +1,34 @@
+.post {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.post h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.post-info, .post-actions {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.post-comments ul {
+  list-style: none;
+  padding: 0;
+}
+
+.post-comments ul li {
+  margin-top: 5px;
+  color: #555;
+}

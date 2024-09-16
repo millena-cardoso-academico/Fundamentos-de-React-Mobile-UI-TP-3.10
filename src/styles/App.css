@@ -1,0 +1,43 @@
+.app-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header header header"
+    "menu feed friends"
+    "menu feed suggestions";
+  gap: 20px;
+  padding: 20px;
+}
+
+header {
+  grid-area: header;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.feed {
+  grid-area: feed;
+}
+
+.friends {
+  grid-area: friends;
+}
+
+.suggestions {
+  grid-area: suggestions;
+}
+
+@media (max-width: 768px) {
+  .app-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "menu"
+      "feed"
+      "friends"
+      "suggestions";
+  }
+}
